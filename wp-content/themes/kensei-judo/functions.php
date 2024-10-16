@@ -32,6 +32,7 @@ function create_instructor_cpt() {
 		'items_list' => __( 'Instructors list', 'textdomain' ),
 		'items_list_navigation' => __( 'Instructors list navigation', 'textdomain' ),
 		'filter_items_list' => __( 'Filter Instructors list', 'textdomain' ),
+        
 	);
 	$args = array(
 		'label' => __( 'Instructor', 'textdomain' ),
