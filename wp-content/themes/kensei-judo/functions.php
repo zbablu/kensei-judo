@@ -1,6 +1,19 @@
 
 <?php
 
+
+function kensei_theme_calling_scripts() {
+    // Enqueue CSS
+    wp_enqueue_style( 'mytheme-style', get_stylesheet_uri() );
+
+    // Enqueue custom JavaScript
+    wp_enqueue_script( 'mytheme-scripts', get_template_directory_uri() . '/js/custom.js', array( 'jquery' ), '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'kensei_theme_calling_scripts' );
+
+
+
+
 // Register Custom Post Type Instructor
 function create_instructor_cpt() {
 
