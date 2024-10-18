@@ -1,0 +1,113 @@
+
+
+
+.accordion .accordion-item {
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .accordion .accordion-header {
+    background-color: #f1f1f1;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .accordion .accordion-content {
+    display: none;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .accordion .accordion-item.active .accordion-content {
+    display: block;
+  }
+  
+
+
+
+
+  .Unleash-text {
+
+    width: 765px;
+    position: absolute;
+    left: -40px;
+    
+    }
+    
+    .Unleash-shadow-text {
+    width: 1200px;
+    align-content: center;
+    }
+    
+    .blockslider-next-btn {
+    
+    background-color: red!important;
+    }
+    
+    .block-slider .blockslider-navigation-wrapper .blockslider-prev-btn {
+    
+    border: 1px solid white;
+    border-radius: 100px;
+    }
+    .instructors-list-wrapper .instructor {
+    
+    width: 413px;
+    .instructors-wrapper {
+    .instructors-photo,.instructors-name,.instructors-belt,.instructors-social-links
+    {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    }
+    }}
+    
+    
+    .wpcf7-form-control-wrap input::placeholder {
+        color: #FFFFFF;
+        font-family: inter;
+        font-size: 16px;
+        font-weight: 400;
+        
+      }
+
+      .wpcf7-form :nth-child(3) input {
+
+          width: 400px;
+      }
+
+
+    .wpcf7-form :nth-child(3) .wpcf7-form-control{
+        
+        width: 522px;
+        background-color: yellow;
+        a{
+
+            color: blueviolet;
+        }
+      }
+
+    .wpcf7-form {
+
+        p { width:419px; }
+
+    .wpcf7-form-control {
+
+        padding-top : 17px;
+        padding-bottom: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        background-color: #FFFFFF0D;
+        border: 1px solid #FFFFFF33;
+        border-radius: 8px;
+
+        
+    }
+        }

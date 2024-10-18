@@ -5,6 +5,7 @@
 function kensei_theme_calling_scripts() {
     // Enqueue CSS
     wp_enqueue_style( 'mytheme-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'mytheme-style', get_stylesheet_uri() .'/css/custom.css');
 
     // Enqueue custom JavaScript
     wp_enqueue_script( 'mytheme-scripts', get_template_directory_uri() . '/js/custom.js', array( 'jquery' ), '1.0', true );
