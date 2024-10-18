@@ -90,10 +90,16 @@ Tags:
         
       }
 
+      .wpcf7-form :nth-child(3) input {
+
+          width: 400px;
+      }
+
+
     .wpcf7-form :nth-child(3) .wpcf7-form-control{
         
         width: 522px;
-        
+        background-color: yellow;
         a{
 
             color: blueviolet;
