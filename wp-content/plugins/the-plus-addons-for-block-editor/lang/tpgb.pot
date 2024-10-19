@@ -1,0 +1,1276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-18 09:17+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: plus-block-loader.php:69
+msgid ""
+"The Plus Blocks for Gutenberg is now Nexter Blocks : Better UI, Faster "
+"Performance & Improved Features"
+msgstr ""
+
+#: plus-block-loader.php:70
+msgid "Read What's New & What Changed?"
+msgstr ""
+
+#: plus-block-loader.php:85
+msgid "Invalid nonce. Unauthorized request."
+msgstr ""
+
+#: plus-block-loader.php:89 includes/plus-settings-options.php:249
+msgid "Insufficient permissions."
+msgstr ""
+
+#: plus-block-loader.php:95
+msgid "Notice dismissed successfully."
+msgstr ""
+
+#: plus-block-loader.php:199
+msgid "FREE vs Pro"
+msgstr ""
+
+#: plus-block-loader.php:202
+msgid "Need Help?"
+msgstr ""
+
+#: plus-block-loader.php:209
+msgid "Upgrade PRO"
+msgstr ""
+
+#: plus-block-loader.php:225
+msgid "Visit Plugin site"
+msgstr ""
+
+#: plus-block-loader.php:226
+msgid "Docs"
+msgstr ""
+
+#: plus-block-loader.php:227
+msgid "Video Tutorials"
+msgstr ""
+
+#: plus-block-loader.php:228
+msgid "Join Community"
+msgstr ""
+
+#: plus-block-loader.php:229
+msgid "What's New?"
+msgstr ""
+
+#: plus-block-loader.php:230
+msgid "Request Feature"
+msgstr ""
+
+#: plus-block-loader.php:231
+msgid "Rate 5 Stars"
+msgstr ""
+
+#: the-plus-addons-for-block-editor.php:49
+#, php-format
+msgid ""
+"Nexter Blocks requires PHP version %s+. The plugin is currently not running. "
+"Please update to the latest PHP version."
+msgstr ""
+
+#: the-plus-addons-for-block-editor.php:65
+#, php-format
+msgid ""
+"Nexter Blocks requires at least WordPress version %s+. Because you’re using "
+"an older version, the plugin is currently not running. Please update "
+"WordPress to the latest version."
+msgstr ""
+
+#: the-plus-addons-for-block-editor.php:81
+msgid ""
+" Please update the Pro version to at least V4.0.0. If you don’t see the "
+"upgrade notice, upload the zip manually to the latest version from the "
+msgstr ""
+
+#: classes/tp-block-helper.php:377
+msgid "Full"
+msgstr ""
+
+#: classes/tp-block-helper.php:434 classes/tp-block-helper.php:450
+msgid "Select Form"
+msgstr ""
+
+#: classes/tp-block-helper.php:439
+msgid "No everest forms found"
+msgstr ""
+
+#: classes/tp-block-helper.php:457
+msgid "Form Not Found!"
+msgstr ""
+
+#: classes/tp-block-helper.php:469
+msgid "Select Ninja Form"
+msgstr ""
+
+#: classes/tp-block-helper.php:476 classes/tp-block-helper.php:499
+msgid "Create a Form First"
+msgstr ""
+
+#: classes/tp-block-helper.php:492
+msgid "Select a WPForm"
+msgstr ""
+
+#: classes/tp-block-helper.php:516
+#, php-format
+msgid "Archive by \"%s\""
+msgstr ""
+
+#: classes/tp-block-helper.php:518
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: classes/tp-block-helper.php:520
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: classes/tp-block-helper.php:522
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: classes/tp-block-helper.php:524
+msgid "Error 404"
+msgstr ""
+
+#: classes/tp-block-helper.php:572
+msgid "home"
+msgstr ""
+
+#: classes/tp-block-helper.php:579
+msgid "separator"
+msgstr ""
+
+#: classes/tp-block-helper.php:1108
+msgid "Page"
+msgstr ""
+
+#: classes/tp-block-helper.php:1384
+msgid "Not a Valid"
+msgstr ""
+
+#: classes/tp-block-helper.php:1392
+msgid "Empty Content."
+msgstr ""
+
+#: classes/tp-block-helper.php:1521
+msgid "System"
+msgstr ""
+
+#: classes/tp-block-helper.php:1523
+msgid "Default"
+msgstr ""
+
+#: classes/tp-block-helper.php:1524
+msgid "Arial"
+msgstr ""
+
+#: classes/tp-block-helper.php:1525
+msgid "Georgia"
+msgstr ""
+
+#: classes/tp-block-helper.php:1526
+msgid "Helvetica"
+msgstr ""
+
+#: classes/tp-block-helper.php:1527
+msgid "Tahoma"
+msgstr ""
+
+#: classes/tp-block-helper.php:1528
+msgid "Times New Roman"
+msgstr ""
+
+#: classes/tp-block-helper.php:1529
+msgid "Trebuchet MS"
+msgstr ""
+
+#: classes/tp-block-helper.php:1530
+msgid "Verdana"
+msgstr ""
+
+#: classes/tp-block-helper.php:1535
+msgid "Custom Fonts"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:136 includes/plus-settings-options.php:34
+#: includes/plus-settings-options.php:36
+msgid "Nexter Blocks"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:357
+msgid "Nexter Blocks Different sized of featured images"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:371
+msgid "Post Listing of get Post Meta Info."
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:385
+msgid "Category list links"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:402
+msgid "Product Data."
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:544
+msgid "Settings parameter is missing!"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:554
+msgid "Nexter Global settings updated!"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:680 classes/tp-core-init-blocks.php:710
+#: classes/tp-core-init-blocks.php:852
+msgid "CSS can not be load due to permission!!!"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:804
+msgid "Plus block css updated."
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:806
+msgid "Plus block preview css updated."
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:1293
+msgid ", "
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:1353
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: classes/tp-core-init-blocks.php:1443
+msgid "Sale"
+msgstr ""
+
+#: classes/tp-registered-blocks.php:2446
+msgid "Nexter Performance"
+msgstr ""
+
+#: classes/tp-registered-blocks.php:2453
+msgid "Purge All Pages"
+msgstr ""
+
+#: classes/tp-registered-blocks.php:2461
+msgid "Purge Current Page"
+msgstr ""
+
+#: classes/tp-registered-blocks.php:2479
+msgid "Edit Template"
+msgstr ""
+
+#: classes/blocks/tp-button/index.php:68
+#: classes/blocks/tp-button/index.php:219
+#: classes/blocks/tp-interactive-circle-info/index.php:82
+#: includes/plus-settings-options.php:659
+msgid "Button"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:50
+msgid "Days"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:51
+msgid "Hours"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:52
+msgid "Minutes"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:53
+msgid "Seconds"
+msgstr ""
+
+#: classes/blocks/tp-countdown/index.php:72
+#: classes/blocks/tp-countdown/index.php:78
+#: classes/blocks/tp-countdown/index.php:84
+#: classes/blocks/tp-countdown/index.php:90
+msgid "00"
+msgstr ""
+
+#: classes/blocks/tp-creative-image/index.php:20
+#: classes/blocks/tp-creative-image/index.php:76
+msgid "Creative Image"
+msgstr ""
+
+#: classes/blocks/tp-data-table/index.php:108
+msgid "Click Here"
+msgstr ""
+
+#: classes/blocks/tp-draw-svg/index.php:42
+#: classes/blocks/tp-flipbox/index.php:84
+#: classes/blocks/tp-flipbox/index.php:141
+#: classes/blocks/tp-infobox/index.php:129
+#: classes/blocks/tp-infobox/index.php:499
+#: classes/blocks/tp-number-counter/index.php:126
+#: classes/blocks/tp-pricing-table/index.php:70
+msgid "icon"
+msgstr ""
+
+#: classes/blocks/tp-external-form-styler/index.php:29
+msgid "Please select Form"
+msgstr ""
+
+#: classes/blocks/tp-flipbox/index.php:57
+#: classes/blocks/tp-flipbox/index.php:129
+msgid "FlipBox"
+msgstr ""
+
+#: classes/blocks/tp-heading-title/index.php:94
+msgid "Image Separator"
+msgstr ""
+
+#: classes/blocks/tp-hovercard/index.php:812
+msgid "Card Image"
+msgstr ""
+
+#: classes/blocks/tp-infobox/index.php:69
+#: classes/blocks/tp-infobox/index.php:478
+msgid "Info Box"
+msgstr ""
+
+#: classes/blocks/tp-interactive-circle-info/index.php:127
+msgid "Circle Info"
+msgstr ""
+
+#: classes/blocks/tp-number-counter/index.php:39
+msgid "Counter Number"
+msgstr ""
+
+#: classes/blocks/tp-number-counter/index.php:87
+#: includes/plus-settings-options.php:992
+msgid "Number Counter"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:30
+#: classes/blocks/tp-post-author/index.php:34
+#: classes/blocks/tp-post-meta/index.php:72
+#: includes/blog/post-meta-style-3.php:5 includes/blog/post-meta-style-3.php:9
+msgid "author"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:54
+msgid "website"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:57
+msgid "Email"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:60
+msgid "facebook"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:63
+msgid "twitter"
+msgstr ""
+
+#: classes/blocks/tp-post-author/index.php:66
+msgid "instagram"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:871
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:879
+#, php-format
+msgid " %1$s%2$s. %3$s%4$s%5$s"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:907
+msgid "Name"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:911
+msgid "Email Address *"
+msgstr ""
+
+#: classes/blocks/tp-post-comment/index.php:914
+msgid "Website"
+msgstr ""
+
+#: classes/blocks/tp-post-content/index.php:37
+msgid "Block Re-rendering halted"
+msgstr ""
+
+#: classes/blocks/tp-post-listing/index.php:100
+msgid "No Posts found"
+msgstr ""
+
+#: classes/blocks/tp-post-meta/index.php:84
+msgid "No Comments"
+msgstr ""
+
+#: classes/blocks/tp-post-meta/index.php:89
+msgid "comment"
+msgstr ""
+
+#: classes/blocks/tp-post-meta/index.php:121
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/blocks/tp-post-meta/index.php:1015
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr ""
+
+#: classes/blocks/tp-pricing-list/index.php:24
+msgid "Food Item"
+msgstr ""
+
+#: classes/blocks/tp-pricing-table/index.php:60
+msgid "Price Icon"
+msgstr ""
+
+#: classes/blocks/tp-progress-bar/index.php:39
+#: includes/plus-settings-options.php:1136
+msgid "Progress Bar"
+msgstr ""
+
+#: classes/blocks/tp-search-bar/index.php:351
+msgid "Button Image"
+msgstr ""
+
+#: classes/blocks/tp-search-bar/index.php:4743
+msgid "Thumb Image"
+msgstr ""
+
+#: classes/blocks/tp-site-logo/index.php:40
+#: classes/blocks/tp-site-logo/index.php:51
+#: classes/blocks/tp-site-logo/index.php:62
+#: classes/blocks/tp-site-logo/index.php:82
+#: classes/blocks/tp-site-logo/index.php:106
+#: classes/blocks/tp-site-logo/index.php:111
+#: classes/blocks/tp-site-logo/index.php:117
+#: includes/plus-settings-options.php:1163
+msgid "Site Logo"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:50
+#: classes/blocks/tp-social-embed/index.php:59
+#: classes/blocks/tp-social-embed/index.php:68
+#: classes/blocks/tp-social-embed/index.php:88
+msgid "Social Facebook Embed"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:102
+msgid "Facebook Share"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:220
+msgid "Social Vimeo"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:260
+msgid "Social Youtube"
+msgstr ""
+
+#: classes/blocks/tp-social-embed/index.php:282
+#: includes/plus-settings-options.php:830
+msgid "Google Map"
+msgstr ""
+
+#: classes/blocks/tp-social-feed/index.php:1954
+#: classes/blocks/tp-social-feed/index.php:1957
+#: classes/blocks/tp-social-reviews/index.php:155
+msgid "All Social Feed"
+msgstr ""
+
+#: classes/blocks/tp-social-icons/index.php:82
+msgid "Custom Icon"
+msgstr ""
+
+#: classes/blocks/tp-stylist-list/index.php:62
+msgid "Icon Image"
+msgstr ""
+
+#: classes/blocks/tp-testimonials/index.php:137
+#: classes/blocks/tp-testimonials/index.php:144
+msgid "Author Avatar"
+msgstr ""
+
+#: classes/blocks/tp-video/index.php:70
+msgid "play-icon"
+msgstr ""
+
+#: classes/blocks/tp-video/index.php:96
+msgid "video"
+msgstr ""
+
+#: classes/blocks/tp-video/index.php:242
+msgid "Video Thumbnail"
+msgstr ""
+
+#: classes/blocks/tp-video/index.php:250
+msgid "My Video"
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:91
+msgid "Quick Feedback"
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:96
+msgid ""
+"If you have a moment, please let us know why you're deactivating Nexter "
+"Blocks :"
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:105
+msgid "This is a temporary deactivation."
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:108
+msgid "Facing technical issues/bugs with the plugin."
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:111
+msgid "Performance Issues."
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:114
+msgid "Found an alternative Block Addon."
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:117
+msgid "No more planning to use Gutenberg Editor."
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:120
+msgid "Dont want to use any Gutenberg Addon, just Gutenberg."
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:123
+msgid "Its missing the feature i require."
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:126
+msgid "Other"
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:138
+msgid "Please share the reason"
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:143
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:144
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:148
+msgid "If you require any help , "
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:148
+msgid "please add a ticket "
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:148
+msgid "We reply within 24 working hours."
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:149
+msgid "Read"
+msgstr ""
+
+#: classes/extras/tpag-deactive.php:149
+msgid "Documentation."
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:60
+msgid "Shortcode"
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:73
+msgid "AJAX Shortcodes"
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:124
+#: classes/extras/tpag-reusable-shortcode.php:131
+msgid "Regular Shortcodes"
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:125
+msgid "You can use below shortcodes to load this tempate load AJAX Way."
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:132
+#: classes/extras/tpag-reusable-shortcode.php:142
+msgid "You need to use this class in your block to load this as AJAX."
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:135
+msgid "Shortcode for Ajax render:"
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:141
+msgid "AJAX Class"
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:146
+msgid "Hover trigger: "
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:151
+msgid "Click trigger: "
+msgstr ""
+
+#: classes/extras/tpag-reusable-shortcode.php:156
+msgid "On view trigger: "
+msgstr ""
+
+#: includes/plus-settings-options.php:81
+msgid "Patterns"
+msgstr ""
+
+#: includes/plus-settings-options.php:84
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/plus-settings-options.php:100
+msgid "Dashboard"
+msgstr ""
+
+#: includes/plus-settings-options.php:282
+msgid "Failed to retrieve plugin information."
+msgstr ""
+
+#: includes/plus-settings-options.php:315
+msgid "You are not allowed to do this action"
+msgstr ""
+
+#: includes/plus-settings-options.php:571
+msgid "Accordion"
+msgstr ""
+
+#: includes/plus-settings-options.php:576
+#: includes/plus-settings-options.php:916
+#: includes/plus-settings-options.php:1275
+#: includes/plus-settings-options.php:1293
+msgid "Tabbed"
+msgstr ""
+
+#: includes/plus-settings-options.php:580
+msgid "Pro Buttons"
+msgstr ""
+
+#: includes/plus-settings-options.php:585
+#: includes/plus-settings-options.php:620
+#: includes/plus-settings-options.php:637
+#: includes/plus-settings-options.php:646
+#: includes/plus-settings-options.php:655
+#: includes/plus-settings-options.php:664
+#: includes/plus-settings-options.php:700
+#: includes/plus-settings-options.php:718
+#: includes/plus-settings-options.php:727
+#: includes/plus-settings-options.php:763
+#: includes/plus-settings-options.php:772
+#: includes/plus-settings-options.php:781
+#: includes/plus-settings-options.php:799
+#: includes/plus-settings-options.php:826
+#: includes/plus-settings-options.php:835
+#: includes/plus-settings-options.php:853
+#: includes/plus-settings-options.php:889
+#: includes/plus-settings-options.php:898
+#: includes/plus-settings-options.php:907
+#: includes/plus-settings-options.php:925
+#: includes/plus-settings-options.php:961
+#: includes/plus-settings-options.php:997
+#: includes/plus-settings-options.php:1096
+#: includes/plus-settings-options.php:1105
+#: includes/plus-settings-options.php:1114
+#: includes/plus-settings-options.php:1141
+#: includes/plus-settings-options.php:1150
+#: includes/plus-settings-options.php:1159
+#: includes/plus-settings-options.php:1177
+#: includes/plus-settings-options.php:1204
+#: includes/plus-settings-options.php:1213
+#: includes/plus-settings-options.php:1267
+#: includes/plus-settings-options.php:1284
+#: includes/plus-settings-options.php:1338
+msgid "Essential"
+msgstr ""
+
+#: includes/plus-settings-options.php:589
+msgid "Advanced Chart"
+msgstr ""
+
+#: includes/plus-settings-options.php:594
+#: includes/plus-settings-options.php:709
+#: includes/plus-settings-options.php:745
+#: includes/plus-settings-options.php:808
+#: includes/plus-settings-options.php:943
+#: includes/plus-settings-options.php:1240
+msgid "Advanced"
+msgstr ""
+
+#: includes/plus-settings-options.php:598
+msgid "Advanced Typography"
+msgstr ""
+
+#: includes/plus-settings-options.php:603
+#: includes/plus-settings-options.php:612
+#: includes/plus-settings-options.php:629
+#: includes/plus-settings-options.php:673
+#: includes/plus-settings-options.php:682
+#: includes/plus-settings-options.php:691
+#: includes/plus-settings-options.php:736
+#: includes/plus-settings-options.php:754
+#: includes/plus-settings-options.php:790
+#: includes/plus-settings-options.php:817
+#: includes/plus-settings-options.php:844
+#: includes/plus-settings-options.php:862
+#: includes/plus-settings-options.php:871
+#: includes/plus-settings-options.php:880
+#: includes/plus-settings-options.php:934
+#: includes/plus-settings-options.php:979
+#: includes/plus-settings-options.php:1087
+#: includes/plus-settings-options.php:1123
+#: includes/plus-settings-options.php:1186
+#: includes/plus-settings-options.php:1195
+#: includes/plus-settings-options.php:1258
+#: includes/plus-settings-options.php:1329
+msgid "Creative"
+msgstr ""
+
+#: includes/plus-settings-options.php:607
+msgid "Animated Service Boxes"
+msgstr ""
+
+#: includes/plus-settings-options.php:615
+msgid "Audio Player"
+msgstr ""
+
+#: includes/plus-settings-options.php:624
+msgid "Before After"
+msgstr ""
+
+#: includes/plus-settings-options.php:632
+msgid "Blockquote"
+msgstr ""
+
+#: includes/plus-settings-options.php:641
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/plus-settings-options.php:650
+msgid "Advanced Button"
+msgstr ""
+
+#: includes/plus-settings-options.php:668
+msgid "Carousel Anything"
+msgstr ""
+
+#: includes/plus-settings-options.php:677
+msgid "Carousel Remote"
+msgstr ""
+
+#: includes/plus-settings-options.php:686
+msgid "Circle Menu"
+msgstr ""
+
+#: includes/plus-settings-options.php:695
+msgid "Code Highlighter"
+msgstr ""
+
+#: includes/plus-settings-options.php:704
+msgid "Countdown"
+msgstr ""
+
+#: includes/plus-settings-options.php:713
+msgid "Container"
+msgstr ""
+
+#: includes/plus-settings-options.php:722
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/plus-settings-options.php:731
+msgid "Advanced Image"
+msgstr ""
+
+#: includes/plus-settings-options.php:740
+msgid "CTA Banner"
+msgstr ""
+
+#: includes/plus-settings-options.php:749
+msgid "Data Table"
+msgstr ""
+
+#: includes/plus-settings-options.php:758
+msgid "Dark Mode"
+msgstr ""
+
+#: includes/plus-settings-options.php:767
+msgid "Design Tool"
+msgstr ""
+
+#: includes/plus-settings-options.php:776
+msgid "Draw SVG"
+msgstr ""
+
+#: includes/plus-settings-options.php:785
+msgid "Dynamic Device"
+msgstr ""
+
+#: includes/plus-settings-options.php:794
+msgid "Spacer"
+msgstr ""
+
+#: includes/plus-settings-options.php:803
+msgid "External Form Styler"
+msgstr ""
+
+#: includes/plus-settings-options.php:812
+msgid "Expand"
+msgstr ""
+
+#: includes/plus-settings-options.php:821
+msgid "Flipbox"
+msgstr ""
+
+#: includes/plus-settings-options.php:839
+msgid "Heading Animation"
+msgstr ""
+
+#: includes/plus-settings-options.php:848
+msgid "Heading"
+msgstr ""
+
+#: includes/plus-settings-options.php:857
+msgid "Advanced Heading"
+msgstr ""
+
+#: includes/plus-settings-options.php:866
+msgid "Hotspot"
+msgstr ""
+
+#: includes/plus-settings-options.php:875
+msgid "Hover Card"
+msgstr ""
+
+#: includes/plus-settings-options.php:884
+msgid "Icon"
+msgstr ""
+
+#: includes/plus-settings-options.php:893
+msgid "Image"
+msgstr ""
+
+#: includes/plus-settings-options.php:902
+msgid "Infobox"
+msgstr ""
+
+#: includes/plus-settings-options.php:911
+msgid "Interactive Circle Info"
+msgstr ""
+
+#: includes/plus-settings-options.php:920
+msgid "Login & Signup"
+msgstr ""
+
+#: includes/plus-settings-options.php:929
+msgid "LottieFiles Animation"
+msgstr ""
+
+#: includes/plus-settings-options.php:938
+msgid "Mailchimp"
+msgstr ""
+
+#: includes/plus-settings-options.php:947
+msgid "Media Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:952
+#: includes/plus-settings-options.php:1051
+#: includes/plus-settings-options.php:1132
+#: includes/plus-settings-options.php:1302
+#: includes/plus-settings-options.php:1311
+#: includes/plus-settings-options.php:1320
+msgid "Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:956
+msgid "Message box"
+msgstr ""
+
+#: includes/plus-settings-options.php:965
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/plus-settings-options.php:970
+#: includes/plus-settings-options.php:988
+#: includes/plus-settings-options.php:1006
+#: includes/plus-settings-options.php:1015
+#: includes/plus-settings-options.php:1024
+#: includes/plus-settings-options.php:1033
+#: includes/plus-settings-options.php:1042
+#: includes/plus-settings-options.php:1060
+#: includes/plus-settings-options.php:1069
+#: includes/plus-settings-options.php:1078
+#: includes/plus-settings-options.php:1168
+msgid "Builder"
+msgstr ""
+
+#: includes/plus-settings-options.php:974
+msgid "Mouse Cursor"
+msgstr ""
+
+#: includes/plus-settings-options.php:983
+msgid "Navigation Menu"
+msgstr ""
+
+#: includes/plus-settings-options.php:1001
+msgid "Popup Builder"
+msgstr ""
+
+#: includes/plus-settings-options.php:1010
+msgid "Post Author"
+msgstr ""
+
+#: includes/plus-settings-options.php:1019
+msgid "Post Comments"
+msgstr ""
+
+#: includes/plus-settings-options.php:1028
+msgid "Post Content"
+msgstr ""
+
+#: includes/plus-settings-options.php:1037
+msgid "Post Image"
+msgstr ""
+
+#: includes/plus-settings-options.php:1046
+msgid "Post Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1055
+msgid "Post Meta Info"
+msgstr ""
+
+#: includes/plus-settings-options.php:1064
+msgid "Post Navigation"
+msgstr ""
+
+#: includes/plus-settings-options.php:1073
+msgid "Post Title"
+msgstr ""
+
+#: includes/plus-settings-options.php:1082
+msgid "Pricing List"
+msgstr ""
+
+#: includes/plus-settings-options.php:1091
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/plus-settings-options.php:1100
+msgid "Pre Loader"
+msgstr ""
+
+#: includes/plus-settings-options.php:1109
+msgid "Paragraph"
+msgstr ""
+
+#: includes/plus-settings-options.php:1118
+msgid "Process Steps"
+msgstr ""
+
+#: includes/plus-settings-options.php:1127
+msgid "Product Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1145
+msgid "Progress Tracker"
+msgstr ""
+
+#: includes/plus-settings-options.php:1154
+msgid "Row"
+msgstr ""
+
+#: includes/plus-settings-options.php:1172
+msgid "Stylish List"
+msgstr ""
+
+#: includes/plus-settings-options.php:1181
+msgid "Scroll Navigation"
+msgstr ""
+
+#: includes/plus-settings-options.php:1190
+msgid "Scroll Sequence"
+msgstr ""
+
+#: includes/plus-settings-options.php:1199
+msgid "Search Bar"
+msgstr ""
+
+#: includes/plus-settings-options.php:1208
+msgid "Social Icon"
+msgstr ""
+
+#: includes/plus-settings-options.php:1217
+msgid "Social Embed"
+msgstr ""
+
+#: includes/plus-settings-options.php:1222
+#: includes/plus-settings-options.php:1231
+#: includes/plus-settings-options.php:1249
+msgid "Social"
+msgstr ""
+
+#: includes/plus-settings-options.php:1226
+#: includes/social-feed/fancybox-feed-post.php:28
+msgid "Social Feed"
+msgstr ""
+
+#: includes/plus-settings-options.php:1235
+msgid "Social Sharing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1244
+msgid "Social Reviews"
+msgstr ""
+
+#: includes/plus-settings-options.php:1253
+msgid "Spline 3D Viewer"
+msgstr ""
+
+#: includes/plus-settings-options.php:1262
+msgid "Smooth Scroll"
+msgstr ""
+
+#: includes/plus-settings-options.php:1270
+msgid "Switcher"
+msgstr ""
+
+#: includes/plus-settings-options.php:1279
+msgid "Table of Contents"
+msgstr ""
+
+#: includes/plus-settings-options.php:1288
+msgid "Tabs Tours"
+msgstr ""
+
+#: includes/plus-settings-options.php:1297
+msgid "Taxonomy Listing"
+msgstr ""
+
+#: includes/plus-settings-options.php:1306
+msgid "Team Member"
+msgstr ""
+
+#: includes/plus-settings-options.php:1315
+msgid "Testimonials"
+msgstr ""
+
+#: includes/plus-settings-options.php:1324
+msgid "Timeline"
+msgstr ""
+
+#: includes/plus-settings-options.php:1333
+msgid "Video"
+msgstr ""
+
+#: includes/plus-settings-options.php:1345
+msgid "Advanced Border Radius"
+msgstr ""
+
+#: includes/plus-settings-options.php:1349
+#: includes/plus-settings-options.php:1356
+#: includes/plus-settings-options.php:1363
+#: includes/plus-settings-options.php:1371
+#: includes/plus-settings-options.php:1379
+#: includes/plus-settings-options.php:1386
+#: includes/plus-settings-options.php:1393
+#: includes/plus-settings-options.php:1400
+#: includes/plus-settings-options.php:1407
+#: includes/plus-settings-options.php:1414
+msgid "Extras"
+msgstr ""
+
+#: includes/plus-settings-options.php:1352
+msgid "Content Hover Effect"
+msgstr ""
+
+#: includes/plus-settings-options.php:1359
+msgid "Continuous Animation"
+msgstr ""
+
+#: includes/plus-settings-options.php:1366
+msgid "Display Rules"
+msgstr ""
+
+#: includes/plus-settings-options.php:1374
+msgid "Equal Column Height"
+msgstr ""
+
+#: includes/plus-settings-options.php:1382
+msgid "Global Tooltip"
+msgstr ""
+
+#: includes/plus-settings-options.php:1389
+msgid "Magic Scroll"
+msgstr ""
+
+#: includes/plus-settings-options.php:1396
+msgid "Mouse Parallax"
+msgstr ""
+
+#: includes/plus-settings-options.php:1403
+msgid "On Scroll Animation"
+msgstr ""
+
+#: includes/plus-settings-options.php:1410
+msgid "3D Tilt"
+msgstr ""
+
+#: includes/rollback.php:141
+msgid "Rollback versions not allowed"
+msgstr ""
+
+#: includes/rollback.php:146
+msgid "Error, Try selecting another version."
+msgstr ""
+
+#: includes/rollback.php:167 includes/rollback.php:206
+msgid "Rollback to Previous Version"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-post.php:13
+#: includes/social-feed/fancybox-feed-post.php:17
+#: includes/social-feed/fancybox-feed.php:27
+#: includes/social-feed/fancybox-feed.php:31
+msgid "Facebook Post"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-post.php:14
+#: includes/social-feed/fancybox-feed-post.php:18
+#: includes/social-feed/fancybox-feed-post.php:24
+#: includes/social-feed/fancybox-feed-post.php:31
+#: includes/social-feed/fancybox-feed.php:28
+#: includes/social-feed/fancybox-feed.php:32
+msgid "Facebook Image"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-post.php:34
+#: includes/social-feed/fancybox-feed.php:42
+msgid "Social Media Image"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-style-1.php:21
+#: includes/social-feed/fancybox-feed-style-2.php:23
+msgid "View Post"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed-style-1.php:21
+#: includes/social-feed/fancybox-feed-style-2.php:23
+msgid "View post"
+msgstr ""
+
+#: includes/social-feed/fancybox-feed.php:41
+#: includes/social-feed/fancybox-feed.php:45
+msgid "Social Media Post"
+msgstr ""
+
+#: includes/social-feed/feed-Description.php:18
+#: includes/social-feed/feed-Description.php:22
+msgid "Hashtag"
+msgstr ""
+
+#: includes/social-feed/feed-Description.php:35
+msgid "Description"
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:9
+msgid "Like "
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:11
+msgid "Like"
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:12
+msgid "Reaction"
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:20
+msgid "comment "
+msgstr ""
+
+#: includes/social-feed/feed-footer.php:30
+msgid "share "
+msgstr ""
+
+#: includes/social-feed/popup-type.php:14
+#: includes/social-feed/popup-type.php:45
+#: includes/social-feed/social-feed-ob-style.php:5
+#: includes/social-feed/social-feed-ob-style.php:22
+msgid "Post URL"
+msgstr ""
+
+#: includes/social-feed/popup-type.php:21
+#: includes/social-feed/popup-type.php:24
+#: includes/social-feed/popup-type.php:36
+#: includes/social-feed/popup-type.php:39
+msgid "Post Thumbnail"
+msgstr ""
+
+#: includes/social-feed/popup-type.php:29
+#: includes/social-feed/popup-type.php:47
+msgid "Popup Gallery"
+msgstr ""
+
+#: includes/social-feed/social-feed-ob-style.php:13
+#: includes/social-reviews/social-review-ob-style.php:30
+msgid "User Profile"
+msgstr ""
+
+#: includes/social-reviews/social-review-ob-style.php:20
+msgid "Review URL"
+msgstr ""
+
+#: includes/social-reviews/social-review-ob-style.php:24
+msgid "Page URL"
+msgstr ""
+
+#: includes/social-reviews/social-review-ob-style.php:24
+msgid "Social Logo"
+msgstr ""
+
+#: includes/social-reviews/social-review-style-1.php:26
+#: includes/social-reviews/social-review-style-2.php:33
+msgid "Posted On "
+msgstr ""

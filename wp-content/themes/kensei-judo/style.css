@@ -16,35 +16,82 @@ Tags:
 
 
 
-
 .accordion .accordion-item {
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
+  margin-bottom: 27px;
+  border-bottom: 1px solid #0000004D;
+  width: 775px;
+}
+
+.accordion .accordion-header {
   
-  .accordion .accordion-header {
-    background-color: #f1f1f1;
-    border: none;
-    outline: none;
-    width: 100%;
-    padding: 1rem;
-    text-align: left;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+  outline: none;
+  width: 100%;
+  padding-bottom: 38px;
+  cursor: pointer;
+  position: relative;
+
+  font-family: Overused Grotesk;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  color : #000000;
+  background-color: #FFF;
   
-  .accordion .accordion-content {
-    display: none;
-    padding: 1rem;
-    border-top: 1px solid #ddd;
-  }
+  border: none;
+
+
+}
+
+.accordion .serial-number {
+  margin-right: 50px;
+  margin-left: -90px;
+  font-family: Overused Grotesk;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  color: #00000080;
+
+
+}
+
+.accordion .arrow {
+  position: absolute;
+  right: 15px;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 54px;
+  height: 54px;
+}
+
+.accordion .accordion-content {
+  display: none;
   
-  .accordion .accordion-item.active .accordion-content {
-    display: block;
-  }
+}
+
+.accordion .accordion-item.active .accordion-content {
+  display: block;
+}
+
+
+.accordion-item p{
+
+
+  font-family: inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+
+} 
+
+
+/* Hide up arrow initially */
+.accordion .up-arrow {
+  display: none;
+}
+
   
 
 
@@ -93,7 +140,7 @@ Tags:
         
       }
 
-      .wpcf7-form > p:nth-child(2) > span:nth-child(1) > input:nth-child(1) {
+      #wpcf7-f396-o1 > .wpcf7-form > p:nth-child(2) > span:nth-child(1) > input:nth-child(1) {
         
         width: 182px;
         }
@@ -207,5 +254,37 @@ Tags:
             margin-right: 8px; /* Space between icon and text */
         }
         
+
+        #wpcf7-f448-p38-o2 > form:nth-child(2) > p:nth-child(2) > span:nth-child(1) > input:nth-child(1) 
+
+         {
+
+          width: 316px;
+          color: #00000099;
+          border: 1px solid #00000033;
+          border-radius: 0px;
+
+          font-family: Pretendard;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+          text-align: left;
+         
+         }
+
+
+         #wpcf7-f448-p38-o2 > form:nth-child(2) > p:nth-child(2) > input:nth-child(2) 
+
+         {
+          border-radius: 0px;
+          width: 197px;
+          background-color: #9E2F1E;
+          font-family: inter;
+          font-size: 16px;
+          line-height: 26px;
+          font-weight: 500;
+          padding-top: 14px;
+          padding-bottom: 14px;
+         }
 
 
