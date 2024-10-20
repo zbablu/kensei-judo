@@ -18,6 +18,31 @@
 				}
 			]
 		},
+
+		"color": {
+			"palette": [
+			  {
+				"slug": "light-mode-primary",
+				"color": "#0073aa",
+				"name": "Primary (Light Mode)"
+			  },
+			  {
+				"slug": "light-mode-secondary",
+				"color": "#229fd8",
+				"name": "Secondary (Light Mode)"
+			  },
+			  {
+				"slug": "dark-mode-primary",
+				"color": "#1e1e1e",
+				"name": "Primary (Dark Mode)"
+			  },
+			  {
+				"slug": "dark-mode-secondary",
+				"color": "#3d3d3d",
+				"name": "Secondary (Dark Mode)"
+			  }
+			]
+		  },
 		"useRootPaddingAwareAlignments": true
 	},
 	"templateParts": [

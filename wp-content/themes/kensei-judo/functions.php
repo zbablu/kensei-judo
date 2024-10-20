@@ -23,6 +23,25 @@ function mytheme_gutenberg_dark_mode_styles() {
 add_action( 'after_setup_theme', 'mytheme_gutenberg_dark_mode_styles' );
 
 
+// Enqueue editor styles for custom color palettes in dark mode
+function mytheme_gutenberg_dark_mode_styles() {
+    // Add the dark mode palette styles
+    add_theme_support( 'editor-styles' );
+    add_editor_style( 'editor-style.css' );
+
+    // Enqueue the script for switching dark mode in the editor
+    wp_enqueue_script(
+        'dark-mode-editor-toggle',
+        get_template_directory_uri() . '/js/dark-mode-editor-toggle.js',
+        array( 'wp-blocks', 'wp-element', 'wp-editor' ),
+        null,
+        true
+    );
+}
+add_action( 'after_setup_theme', 'mytheme_gutenberg_dark_mode_styles' );
+
+
+
 
 
 

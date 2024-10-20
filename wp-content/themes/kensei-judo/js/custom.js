@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
+/*
 // Get the toggle button
 const toggleButton = document.getElementById('dark-mode-toggle');
 
@@ -58,4 +58,77 @@ toggleButton.addEventListener('click', function() {
     }
 });
 
+*/
 
+// Get the toggle button
+const toggleButton = document.getElementById('dark-mode-toggle');
+
+// Function to enable dark mode
+function enableDarkMode() {
+    document.body.classList.add('dark-mode');
+    toggleButton.textContent = '🌞 Toggle Light Mode';
+    localStorage.setItem('theme', 'dark');
+    
+    // Also apply the dark mode to the Gutenberg editor (if in editor)
+    if (document.body.classList.contains('block-editor-page')) {
+        document.body.classList.add('is-dark-theme');
+    }
+}
+
+// Function to disable dark mode
+function disableDarkMode() {
+    document.body.classList.remove('dark-mode');
+    toggleButton.textContent = '🌙 Toggle Dark Mode';
+    localStorage.setItem('theme', 'light');
+    
+    // Remove dark mode from the Gutenberg editor
+    if (document.body.classList.contains('block-editor-page')) {
+        document.body.classList.remove('is-dark-theme');
+    }
+}
+
+// Initialize the dark mode state on page load
+const currentMode = localStorage.getItem('theme');
+if (currentMode === 'dark') {
+    enableDarkMode();
+} else {
+    disableDarkMode();
+}
+
+// Toggle dark mode when the button is clicked
+toggleButton.addEventListener('click', function() {
+    if (document.body.classList.contains('dark-mode')) {
+        disableDarkMode();
+    } else {
+        enableDarkMode();
+    }
+});
+
+
+
+
+// Check if the editor is active (Gutenberg)
+function isEditorPage() {
+  return document.body.classList.contains('block-editor-page');
+}
+
+// Detect if dark mode is active in the editor and toggle palettes
+function applyDarkModeToEditor() {
+  if (isEditorPage()) {
+      document.body.classList.add('is-dark-theme');
+  }
+}
+
+function removeDarkModeFromEditor() {
+  if (isEditorPage()) {
+      document.body.classList.remove('is-dark-theme');
+  }
+}
+
+// Make sure we apply the dark mode class in the editor on page load
+const editorMode = localStorage.getItem('theme');
+if (editorMode === 'dark') {
+  applyDarkModeToEditor();
+} else {
+  removeDarkModeFromEditor();
+}
