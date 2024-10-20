@@ -8,19 +8,14 @@ function kensei_theme_calling_scripts() {
 	
 
     // Enqueue custom JavaScript
-    wp_enqueue_script( 'mytheme-scripts', get_template_directory_uri() . '/js/custom.js', array( 'jquery' ), '1.0', true );
+    wp_enqueue_script( 'mytheme-scripts', get_template_directory_uri() . '/js/', array( 'jquery' ), '1.0', true );
 
 	
 }
 add_action( 'wp_enqueue_scripts', 'kensei_theme_calling_scripts' );
 
 
-// Enqueue dark mode styles for Gutenberg editor
-function mytheme_gutenberg_dark_mode_styles() {
-    add_theme_support( 'editor-styles' );
-    add_editor_style( 'editor-dark-mode.css' );
-}
-add_action( 'after_setup_theme', 'mytheme_gutenberg_dark_mode_styles' );
+
 
 
 // Enqueue editor styles for custom color palettes in dark mode
@@ -32,7 +27,7 @@ function mytheme_gutenberg_dark_mode_styles() {
     // Enqueue the script for switching dark mode in the editor
     wp_enqueue_script(
         'dark-mode-editor-toggle',
-        get_template_directory_uri() . '/js/dark-mode-editor-toggle.js',
+        get_template_directory_uri() . '/js/custom.js',
         array( 'wp-blocks', 'wp-element', 'wp-editor' ),
         null,
         true

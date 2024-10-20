@@ -132,3 +132,26 @@ if (editorMode === 'dark') {
 } else {
   removeDarkModeFromEditor();
 }
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.querySelector('.timeline-wrapper');
+  const items = wrapper.querySelector('.timeline-items');
+  const prevButton = wrapper.querySelector('.timeline-prev');
+  const nextButton = wrapper.querySelector('.timeline-next');
+  let currentIndex = 0;
+
+  prevButton.addEventListener('click', () => {
+      currentIndex = Math.max(currentIndex - 1, 0); // Don't slide past the first item
+      items.style.transform = `translateX(-${currentIndex * 50}%)`;
+  });
+
+  nextButton.addEventListener('click', () => {
+      const itemCount = items.children.length;
+      currentIndex = Math.min(currentIndex + 1, itemCount - 2); // Slide up to the last visible set
+      items.style.transform = `translateX(-${currentIndex * 50}%)`;
+  });
+});

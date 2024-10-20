@@ -337,13 +337,72 @@ div.wp-block-button:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
 }
 
 
+/* Dark Mode Toggle Button */
+.dark-mode-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color: greenyellow;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode-btn.dark-mode-active {
+  background-color: #000;
+  color: #fff;
+}
 
 
 
+.timeline-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 
+.timeline-items {
+  display: flex;
+  transition: transform 0.5s ease;
+}
 
+.timeline-item {
+  min-width: 50%; /* Show 2 items at a time */
+  height: 370px;
+  box-sizing: border-box;
+  /* Add padding, margins, or any other styling as needed */
+}
 
+.timeline-prev,
+.timeline-next {
+  position: absolute;
+  z-index: 5;
+  
+  cursor: pointer;
+  width: 56px; /* Adjust based on your arrow image size */
+  height: 56px; /* Adjust based on your arrow image size */
+  
+  
+  display: inline;
+  align-content: center;
+  text-align: center;
+  top:0;
+}
 
+.timeline-prev {
+  right: 100px;
+  border: 1px solid #0000004D;
+  border-radius: 100px;
+}
 
+.timeline-next {
+  right: 10px;
+  background: #9E2F1E;
+  border-radius: 100px;
 
-
+}
