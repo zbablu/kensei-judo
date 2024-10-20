@@ -15,6 +15,15 @@ function kensei_theme_calling_scripts() {
 add_action( 'wp_enqueue_scripts', 'kensei_theme_calling_scripts' );
 
 
+// Enqueue dark mode styles for Gutenberg editor
+function mytheme_gutenberg_dark_mode_styles() {
+    add_theme_support( 'editor-styles' );
+    add_editor_style( 'editor-dark-mode.css' );
+}
+add_action( 'after_setup_theme', 'mytheme_gutenberg_dark_mode_styles' );
+
+
+
 
 
 // Register Custom Post Type Instructor
@@ -75,3 +84,43 @@ function create_instructor_cpt() {
 
 }
 add_action( 'init', 'create_instructor_cpt', 0 );
+
+
+
+// Add custom color palette for dark mode in Gutenberg
+function mytheme_gutenberg_dark_mode_palette() {
+    // Register custom colors for the editor
+    add_theme_support('editor-color-palette', array(
+        array(
+            'name'  => __( 'White', 'mytheme' ),
+            'slug'  => 'white',
+            'color' => '#FFFFFF',
+        ),
+        array(
+            'name'  => __( 'Black', 'mytheme' ),
+            'slug'  => 'black',
+            'color' => '#000000',
+        ),
+        array(
+            'name'  => __( 'Dark Gray', 'mytheme' ),
+            'slug'  => 'dark-gray',
+            'color' => '#333333',
+        ),
+        array(
+            'name'  => __( 'Light Gray', 'mytheme' ),
+            'slug'  => 'light-gray',
+            'color' => '#CCCCCC',
+        ),
+        array(
+            'name'  => __( 'Primary Blue', 'mytheme' ),
+            'slug'  => 'primary-blue',
+            'color' => '#1E90FF',
+        ),
+        array(
+            'name'  => __( 'Secondary Green', 'mytheme' ),
+            'slug'  => 'secondary-green',
+            'color' => '#28A745',
+        ),
+    ));
+}
+add_action( 'after_setup_theme', 'mytheme_gutenberg_dark_mode_palette' );
