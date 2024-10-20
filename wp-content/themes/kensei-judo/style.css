@@ -288,3 +288,38 @@ Tags:
          }
 
 
+
+
+         /* Default Light Mode (Optional) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Header, Footer, and Other Elements in Dark Mode */
+body.dark-mode header, 
+body.dark-mode footer, 
+body.dark-mode .content {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Dark mode link styling */
+body.dark-mode a {
+  color: #1e90ff;
+}
+
+body.dark-mode .btn {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Add any other dark mode specific styles */
+
+
