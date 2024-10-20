@@ -163,9 +163,9 @@ Tags:
 
      .wpcf7-form > p:nth-child(5) > input:nth-child(1)
 
-     { width: 463px;
-        background: #9E2F1E;
-        margin-top: 50px;
+     { 
+       
+        
         color: #FFF;
         text-align: center;
         font-family: "Open Sans";
@@ -173,22 +173,30 @@ Tags:
         font-style: normal;
         font-weight: 400;
         line-height: 26px; /* 162.5% */
-
+        border: none;
+        background-color: none;
 
         display: inline-block;
     
     
-    font-size: 16px;
-    
-    cursor: pointer;
-    text-align: center;
-    background-image: url('/wp-content/themes/kensei-judo/img/right-arrow.png');
-    background-repeat: no-repeat;
-    background-position: right center; /* Adjust the position of the icon */
-    background-size: 20px 20px; /* Adjust the size of the icon */
-    padding-right: 40px; /* Add extra space for the image */
+        font-size: 16px;
+        
+        cursor: pointer;
+        text-align: center;
+        background-image: url('http://localhost/kensei-judo/wp-content/uploads/2024/10/right-arrow.png');
+        background-repeat: no-repeat;
+        background-position: right center; /* Adjust the position of the icon */
+        background-size: 20px 20px; /* Adjust the size of the icon */
+        padding-right: 40px; /* Add extra space for the image */
 
 
+    }
+
+    #wpcf7-f396-o1 > form:nth-child(2) > p:nth-child(5) {
+      width: 463px;
+      background: #9E2F1E;
+      margin-top: 50px;
+      justify-content: center;
     }
 
 
@@ -323,3 +331,7 @@ body.dark-mode .btn {
 /* Add any other dark mode specific styles */
 
 
+div.wp-block-button:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
+  width:24px;
+  height: 24px;
+}
