@@ -360,13 +360,13 @@ div.wp-block-button:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
 
 
 
-.timeline-wrapper {
+.instructors-timeline-wrapper,.timeline-wrapper {
   position: relative;
   width: 100%;
   overflow: hidden;
 }
 
-.timeline-items {
+.timeline-items, .instructors-timeline-items {
   display: flex;
   transition: transform 0.5s ease;
 }
@@ -379,8 +379,8 @@ div.wp-block-button:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
 }
 
 .timeline-prev,
-.timeline-next {
-  position: absolute;
+.timeline-next,.instructors-timeline-prev, .instructors-timeline-next {
+  
   z-index: 5;
   
   cursor: pointer;
@@ -394,15 +394,42 @@ div.wp-block-button:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
   top:0;
 }
 
-.timeline-prev {
+.timeline-prev,.instructors-timeline-prev {
   right: 100px;
   border: 1px solid #0000004D;
   border-radius: 100px;
 }
 
-.timeline-next {
+.instructors-timeline-prev {
+border: 1px solid #FFFFFF
+
+}
+
+.timeline-next, .instructors-timeline-next {
   right: 10px;
   background: #9E2F1E;
   border-radius: 100px;
 
+}
+
+
+.instructors-timeline-item {
+  min-width: 33.33%; /* Show 3 items at a time */
+  box-sizing: border-box;
+  /* Add any additional padding, margins, or styling */
+}
+
+
+.wp-block-social-link {
+  border-radius: 8px;
+  width: 47px;
+  height: 47px;
+  align-content: center;
+
+}
+
+.wp-block-social-link a {
+
+  justify-content: center;
+  padding: 0px;
 }

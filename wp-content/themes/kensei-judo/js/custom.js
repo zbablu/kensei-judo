@@ -155,3 +155,24 @@ document.addEventListener('DOMContentLoaded', function() {
       items.style.transform = `translateX(-${currentIndex * 50}%)`;
   });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.querySelector('.instructors-timeline-wrapper');
+  const items = wrapper.querySelector('.instructors-timeline-items');
+  const prevButton = wrapper.querySelector('.instructors-timeline-prev');
+  const nextButton = wrapper.querySelector('.instructors-timeline-next');
+  let currentIndex = 0;
+
+  prevButton.addEventListener('click', () => {
+      currentIndex = Math.max(currentIndex - 1, 0); // Don't go past the first item
+      items.style.transform = `translateX(-${currentIndex * 33.33}%)`;
+  });
+
+  nextButton.addEventListener('click', () => {
+      const itemCount = items.children.length;
+      currentIndex = Math.min(currentIndex + 1, itemCount - 3); // Slide up to the last visible set of 3
+      items.style.transform = `translateX(-${currentIndex * 33.33}%)`;
+  });
+});
