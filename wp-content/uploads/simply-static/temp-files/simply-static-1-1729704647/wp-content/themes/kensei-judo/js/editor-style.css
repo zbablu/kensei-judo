@@ -1,0 +1,10 @@
+/* Hide dark mode colors in light mode */
+body:not(.is-dark-theme) .editor-styles-wrapper .components-color-palette__item[data-slug^="dark-mode"] {
+    display: none;
+  }
+  
+  /* Hide light mode colors in dark mode */
+  body.is-dark-theme .editor-styles-wrapper .components-color-palette__item[data-slug^="light-mode"] {
+    display: none;
+  }
+  

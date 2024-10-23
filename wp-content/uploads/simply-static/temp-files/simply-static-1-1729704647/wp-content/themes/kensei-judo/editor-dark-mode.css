@@ -1,0 +1,48 @@
+/*/* Gutenberg Editor Dark Mode *
+body.is-dark-theme .editor-styles-wrapper {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Block styling *
+body.is-dark-theme .wp-block {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Buttons *
+body.is-dark-theme .wp-block-button__link {
+    background-color: #1E90FF;
+    color: #ffffff;
+}
+
+/* Text color for headings 
+body.is-dark-theme h1, 
+body.is-dark-theme h2, 
+body.is-dark-theme h3, 
+body.is-dark-theme h4, 
+body.is-dark-theme h5, 
+body.is-dark-theme h6 {
+    color: #ffffff;
+}
+
+/* Custom color palette buttons 
+body.is-dark-theme .components-color-palette__item {
+    border-color: #ffffff;
+}
+*/
+
+
+/* Dark Mode for the Gutenberg editor */
+body.is-dark-theme .editor-styles-wrapper {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.is-dark-theme .wp-block {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Add more dark mode styles for Gutenberg blocks */
+
