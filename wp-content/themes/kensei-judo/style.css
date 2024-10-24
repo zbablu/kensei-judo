@@ -95,9 +95,12 @@ Tags:
   
 
 
+.unleash-shadow-text {
+  width: 1200px;
+  align-content: center;
+  }
 
-
-  .Unleash-text {
+  .unleash-text {
 
     width: 765px;
     position: absolute;
@@ -105,10 +108,6 @@ Tags:
     
     }
     
-    .Unleash-shadow-text {
-    width: 1200px;
-    align-content: center;
-    }
     
     .blockslider-next-btn {
     

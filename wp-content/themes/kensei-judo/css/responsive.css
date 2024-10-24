@@ -1,0 +1,73 @@
+/* Mobile (default) */
+@media (max-width: 767px) {
+    /* Styles for devices up to 767px wide (small smartphones, portrait phones) */
+
+
+    h1.wp-block-heading {
+
+        font-size: 100px !important;
+        
+    }
+
+    .learn-judo-text {
+
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .number-elements-wrapper {
+
+        flex-direction: column;
+    }
+
+    .second-section-image-wrapper {
+
+        flex-direction: column;
+        margin-top: 0px !important;
+        padding-left: 10px !important;
+        padding-right: 10px;
+        
+    }
+
+    .unleash-shadow-text {
+
+        width : 90vw;
+        min-height: 100px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .unleash-text {
+        width: 90vw;
+        font-size: 48px !important;
+        left: 0 !important;
+    }
+
+
+    .wp-container-core-group-is-layout-24 {
+
+        padding-left: 20px;
+    }
+
+
+    
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for devices between 768px and 1023px wide (tablets, landscape phones) */
+}
+
+/* Laptops */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    /* Styles for devices between 1024px and 1279px wide (small laptops) */
+}
+
+/* Desktops */
+@media (min-width: 1280px) and (max-width: 1535px) {
+    /* Styles for devices between 1280px and 1535px wide (desktops, larger laptops) */
+}
+
+/* Large Desktops */
+@media (min-width: 1536px) {
+    /* Styles for devices 1536px wide and above (large desktops) */
+}
