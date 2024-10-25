@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
+/*
 document.addEventListener('DOMContentLoaded', function() {
   const wrapper = document.querySelector('.instructors-timeline-wrapper');
   const items = wrapper.querySelector('.instructors-timeline-items');
@@ -175,4 +175,52 @@ document.addEventListener('DOMContentLoaded', function() {
       currentIndex = Math.min(currentIndex + 1, itemCount - 3); // Slide up to the last visible set of 3
       items.style.transform = `translateX(-${currentIndex * 33.33}%)`;
   });
+});
+
+*/
+
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.querySelector('.instructors-timeline-wrapper');
+  const items = wrapper.querySelector('.instructors-timeline-items');
+  const prevButton = wrapper.querySelector('.instructors-timeline-prev');
+  const nextButton = wrapper.querySelector('.instructors-timeline-next');
+  let currentIndex = 0;
+
+  function updateSlider() {
+    const isMobile = window.innerWidth <= 767;
+    const itemWidthPercentage = isMobile ? 100 : 33.33; // Translate by -100% on mobile, -33.33% on desktop
+    const visibleItems = isMobile ? 1 : 3; // Show 1 item on mobile, 3 on desktop
+    const itemCount = items.children.length;
+
+    // Adjust transform based on screen size and current index
+    items.style.transform = `translateX(-${currentIndex * itemWidthPercentage}%)`;
+
+    // Disable navigation at bounds
+    prevButton.disabled = currentIndex === 0;
+    nextButton.disabled = currentIndex >= itemCount - visibleItems;
+  }
+
+  prevButton.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSlider();
+    }
+  });
+
+  nextButton.addEventListener('click', () => {
+    const itemCount = items.children.length;
+    const isMobile = window.innerWidth <= 767;
+    const maxIndex = itemCount - (isMobile ? 1 : 3); // Only 1 item on mobile, 3 items on desktop
+
+    if (currentIndex < maxIndex) {
+      currentIndex++;
+      updateSlider();
+    }
+  });
+
+  // Update the slider on window resize to handle dynamic screen size changes
+  window.addEventListener('resize', updateSlider);
+
+  // Initial setup
+  updateSlider();
 });
