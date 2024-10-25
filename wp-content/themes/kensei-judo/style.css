@@ -173,7 +173,7 @@ Tags:
         font-weight: 400;
         line-height: 26px; /* 162.5% */
         border: none;
-        background-color: none;
+        background-color: transparent;
 
         display: inline-block;
     

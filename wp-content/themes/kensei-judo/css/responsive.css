@@ -2,6 +2,16 @@
 @media (max-width: 767px) {
     /* Styles for devices up to 767px wide (small smartphones, portrait phones) */
 
+    
+
+    .wp-block-navigation-container {
+        background-color: aquamarine !important;
+
+    }
+    .wp-block-navigation__responsive-container.is-menu-open {
+
+        background-color: transparent !important;
+    }
 
     h1.wp-block-heading {
 
@@ -55,7 +65,8 @@
         margin-bottom: 40px !important;
     }
 
-    .third-section, .fourth-section, .fifth-section, .sixth-section, .seventh-section, .eight-section-cover{
+    .third-section, .fourth-section, .fifth-section, .sixth-section,
+    .seventh-section, .eight-section-cover, .footer-section{
 
         padding-top: 50px !important;
         padding-left: 20px !important;
@@ -143,6 +154,83 @@
         margin-right: 10px !important;
         margin-left: 0px !important;
         
+    }
+
+    .contact-form-wrapper {
+
+        width: 90vw;
+        margin-left: 0 !important;
+    }
+
+    .wpcf7-form p {
+        
+        flex-direction: column;
+    }
+
+    .wpcf7-form > p:nth-child(3) > span:nth-child(1) > input:nth-child(1), 
+    .wpcf7-form > p:nth-child(4) > span:nth-child(1) > input:nth-child(1),
+    #wpcf7-f396-o1 > .wpcf7-form > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+    .wpcf7-form > p:nth-child(2) > span:nth-child(2) > input:nth-child(1)
+     
+    
+    {
+        width: 65vw !important;
+    }
+
+    #wpcf7-f396-o1 > form:nth-child(2) > p:nth-child(5) {
+
+        width: 75vw !important;
+        display: grid;
+        justify-items: center;
+    }
+
+    .wpcf7-form {
+        
+        display: grid;
+        justify-items: center;
+        
+    }
+
+    .wpcf7-form > p:nth-child(5) > input:nth-child(1){
+
+        width: 150px;
+    }
+
+    .footer-title {
+
+        font-size: 80px !important;
+    }
+
+    .footer-content-wrapper {
+
+        display: grid !important;
+        justify-items: left;
+
+    }
+
+    #wpcf7-f448-p38-o2 > form:nth-child(2) {
+
+        justify-items: left;
+    }
+
+    .newsletter-wrapper {
+
+        margin-top: 0 !important;
+    }
+
+    .footer-nav-wrapper {
+
+        flex-direction: column;
+    }
+
+    .copyright {
+
+        margin-bottom: -60px;
+    }
+
+    .timeline-item {
+
+        min-width: 100%;
     }
 
     
