@@ -4,19 +4,44 @@
 
     
 
-    .wp-block-navigation-container {
-        background-color: aquamarine !important;
-
-    }
+    
     .wp-block-navigation__responsive-container.is-menu-open {
 
         background-color: transparent !important;
+    }
+
+    /*.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content
+    .wp-block-navigation-item  */
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content
+    .wp-block-navigation__container {
+
+        background-color: black !important;
+        padding: 20px;
+    }
+
+    .has-background-color {
+
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .wp-block-navigation__responsive-container-close {
+
+        background-color: black;
+        top: 10px;
+        padding: 10px;
     }
 
     h1.wp-block-heading {
 
         font-size: 100px !important;
         
+    }
+
+    .learn-judo-text-wrapper {
+
+        justify-content: center;
     }
 
     .learn-judo-text {
@@ -232,6 +257,13 @@
 
         min-width: 100%;
     }
+
+    .get-started-button {
+
+        display: none !important;
+    }
+
+   
 
     
 
