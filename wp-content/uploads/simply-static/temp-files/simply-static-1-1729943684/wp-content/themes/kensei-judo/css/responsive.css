@@ -1,0 +1,291 @@
+/* Mobile (default) */
+@media (max-width: 767px) {
+    /* Styles for devices up to 767px wide (small smartphones, portrait phones) */
+
+    
+
+    
+    .wp-block-navigation__responsive-container.is-menu-open {
+
+        background-color: transparent !important;
+    }
+
+    /*.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content
+    .wp-block-navigation-item  */
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content
+    .wp-block-navigation__container {
+
+        background-color: black !important;
+        padding: 20px;
+    }
+
+    .has-background-color {
+
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .wp-block-navigation__responsive-container-close {
+
+        background-color: black;
+        top: 10px;
+        padding: 10px;
+    }
+
+    h1.wp-block-heading {
+
+        font-size: 100px !important;
+        
+    }
+
+    .learn-judo-text-wrapper {
+
+        justify-content: center;
+    }
+
+    .learn-judo-text {
+
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .number-elements-wrapper {
+
+        flex-direction: column;
+    }
+
+    .second-section-image-wrapper {
+
+        flex-direction: column;
+        margin-top: 0px !important;
+        padding-left: 10px !important;
+        padding-right: 10px;
+        justify-items: center;
+        display: inline-grid !important;
+        
+    }
+
+    .unleash-shadow-text {
+
+        width : 90vw;
+        min-height: 100px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .unleash-text {
+        width: 90vw;
+        font-size: 48px !important;
+        left: 0 !important;
+    }
+
+
+    .wp-container-core-group-is-layout-24 {
+
+        padding-left: 20px;
+    }
+
+    .second-section-button {
+
+        margin-bottom: 40px !important;
+    }
+
+    .third-section, .fourth-section, .fifth-section, .sixth-section,
+    .seventh-section, .eight-section-cover, .footer-section{
+
+        padding-top: 50px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .third-sec-heading, .fifth-sec-title-text {
+
+        font-size: 48px !important;
+        margin-bottom: 30px;
+    }
+
+    .third-sec-number {
+
+        width: 100px;
+        font-size: 40px !important;
+    }
+
+    .wp-container-core-group-is-layout-43 > h2:nth-child(1) {
+
+        font-size: 52px !important;
+    }
+
+    .right-mark-img {
+
+        width: 52px;
+    }
+
+    .wp-container-core-group-is-layout-42 {
+
+        gap: 15px !important
+    }
+
+   .instructors-nav-wrapper {
+
+        margin-top: 70px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .instructors-timeline-item {
+        min-width: 100%;
+        
+    }
+
+    .sixth-sec-title {
+
+        font-size: 46px !important;
+    }
+
+    .seventh-sec-title-wrapper {
+
+        width: 90vw;
+        font-size: 48px;
+    }
+
+    .seventh-sec-title, .eight-sec-title {
+
+        font-size: 48px !important;
+    }
+
+    .accordion-wrapper {
+
+        margin-top: 40px !important;
+    }
+
+    .accordion .accordion-header {
+        
+        font-size: 20px;
+        
+    }
+
+    .accordion .accordion-item {
+        
+        width: 90vw !important;
+    }
+
+    .accordion-item p {
+        
+        font-size: 16px !important;
+        
+    }
+
+    .accordion .serial-number {
+        margin-right: 10px !important;
+        margin-left: 0px !important;
+        
+    }
+
+    .contact-form-wrapper {
+
+        width: 90vw;
+        margin-left: 0 !important;
+    }
+
+    .wpcf7-form p {
+        
+        flex-direction: column;
+    }
+
+    .wpcf7-form > p:nth-child(3) > span:nth-child(1) > input:nth-child(1), 
+    .wpcf7-form > p:nth-child(4) > span:nth-child(1) > input:nth-child(1),
+    #wpcf7-f396-o1 > .wpcf7-form > p:nth-child(2) > span:nth-child(1) > input:nth-child(1),
+    .wpcf7-form > p:nth-child(2) > span:nth-child(2) > input:nth-child(1)
+     
+    
+    {
+        width: 65vw !important;
+    }
+
+    #wpcf7-f396-o1 > form:nth-child(2) > p:nth-child(5) {
+
+        width: 75vw !important;
+        display: grid;
+        justify-items: center;
+    }
+
+    .wpcf7-form {
+        
+        display: grid;
+        justify-items: center;
+        
+    }
+
+    .wpcf7-form > p:nth-child(5) > input:nth-child(1){
+
+        width: 150px;
+    }
+
+    .footer-title {
+
+        font-size: 80px !important;
+    }
+
+    .footer-content-wrapper {
+
+        display: grid !important;
+        justify-items: left;
+
+    }
+
+    #wpcf7-f448-p38-o2 > form:nth-child(2) {
+
+        justify-items: left;
+    }
+
+    .newsletter-wrapper {
+
+        margin-top: 0 !important;
+    }
+
+    .footer-nav-wrapper {
+
+        flex-direction: column;
+    }
+
+    .copyright {
+
+        margin-bottom: -60px;
+    }
+
+    .timeline-item {
+
+        min-width: 100%;
+    }
+
+    .get-started-button {
+
+        display: none !important;
+    }
+
+   
+
+    
+
+    
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for devices between 768px and 1023px wide (tablets, landscape phones) */
+}
+
+/* Laptops */
+@media (min-width: 1024px) and (max-width: 1279px) {
+    /* Styles for devices between 1024px and 1279px wide (small laptops) */
+}
+
+/* Desktops */
+@media (min-width: 1280px) and (max-width: 1535px) {
+    /* Styles for devices between 1280px and 1535px wide (desktops, larger laptops) */
+}
+
+/* Large Desktops */
+@media (min-width: 1536px) {
+    /* Styles for devices 1536px wide and above (large desktops) */
+}
